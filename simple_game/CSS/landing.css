@@ -1,0 +1,28 @@
+img{
+	display: block;
+	margin:0 auto;
+	margin-bottom: 10px;
+}
+
+p, a, h1{
+	text-align: center;
+	display: block;
+	margin:0 auto;
+}
+
+p{
+	font-size: 18px;
+	margin-top: 10px
+}
+
+.ps{
+	text-align: right;
+	font-size: 3px;
+}
+
+a{
+	margin-top: 15px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration-line: none;
+}
