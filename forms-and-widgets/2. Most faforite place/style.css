@@ -1,0 +1,116 @@
+.wrapper {
+	width: 792px;
+	height: 340px;
+	margin: 0 auto;
+	margin-top: 12vh;
+	border-radius: 4px;
+	background-color:  #fbfbfb;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.44);
+}
+.left_sidebar {
+	float: left;
+	margin-right: 34px;
+}
+
+.left_location {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.left_eye {
+	border-top-left-radius: 4px;
+}
+
+.left_star {
+	border-bottom-left-radius: 4px;
+}
+
+.left_eye, .left_location, .left_star {
+	background-color: #3e4958;
+    width: 72px;
+    height: 67.7px;
+    text-align: center;
+    padding-top: 45px;
+    color: #ffffff;
+}
+
+.left_eye:hover, .left_location:hover, .left_star:hover,
+.left_eye:focus, .left_location:focus, .left_star:focus{
+	background-color:#fb6362;
+}
+
+.article_wrapper {
+	width: 351px;
+	padding-top: 30px;
+}
+
+.header_article {
+	font-family: Gotham;
+	color:  #4d4d4d;
+	font-size: 21px;
+	font-weight: 500;
+	line-height: 30px;
+	text-align: left;
+	background: url();
+}
+
+
+
+.number_of_views {
+	font-family: Gotham;
+	color:  #4d4d4d;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 51.992px;
+	text-align: left;
+}
+
+.number_of_views span {
+	color:  #999999;
+}
+
+.article_place {
+	font-family: Gotham;
+	color:  #999999;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 23.99px;
+	text-align: left;
+}
+
+.link_readMore {
+	font-family: Gotham;
+	color:  #fb6362;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 54.99px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	text-decoration: none;
+}
+
+.image_sea {
+	float: right;
+}
+
+.wrapper:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.link_heart, .link_comment {
+	text-decoration: none;
+	font-family: Gotham;
+	color:  #ffffff;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 42px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.comments_wrapper {
+	position: relative;
+	   left: 512px;
+    bottom: 19px;

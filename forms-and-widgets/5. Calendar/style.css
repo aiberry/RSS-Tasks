@@ -1,0 +1,127 @@
+* {box-sizing: border-box;}
+
+.calendar_wrapper {
+	border-radius: 4px;
+	background-color:  #ffffff;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.44);
+	width: 346px;
+	height: 427px;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-left: 23px;
+}
+
+.dateHead_wrapper {
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+	background-color:  #404a58;
+	margin-left: -23px;
+	width: 346px;
+	height: 64px;
+	font-family: Gotham;
+	color:  #ffffff;
+	font-size: 16.96px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.dateHead_wrapper:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.button_arrow_left, .button_arrow_right{
+	margin-top: 19px;
+	display: inline-block;
+    vertical-align: middle;
+    color: white;
+    background-color: inherit;
+    border: none;
+    height: 26px;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.button_arrow_left:hover, .button_arrow_right:hover {
+	background-color: black;
+}
+
+.button_arrow_left {
+	float: left;
+	margin-left: 38px;
+}
+
+.button_arrow_right {
+	float: right;
+	margin-right: 38px;
+}
+
+.dateHead_wrapper:after {
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.button_addEvent {
+	margin: 0 auto;
+	margin-top: 9px;
+	border: none;
+	border-radius: 3px;
+	background-color:  #fb6362;
+	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.55);
+	width: 299px;
+	height: 59px;
+	text-transform: uppercase;
+	font-family: Gotham;
+	color:  #ffffff;
+	font-size: 14.98px;
+	font-weight: 300;
+	line-height: 42px;
+	text-align: center;
+}
+
+.button_addEvent:hover, .button_addEvent:focus {
+	background-color: red;
+}
+
+.row_0, .row_1, .row_2, .row_3, .row_4, .row_5 {
+	font-family: Gotham;
+	text-align: center;
+	color:  #666666;
+	font-size: 13.96px;
+	font-weight: 500;
+	line-height: 20px;
+	height: 19px;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+.row_0 th, .row_1 td, .row_2 td, .row_3 td, .row_4 td, .row_5 td {
+	width: 43px;
+	height:43px;
+	vertical-align: middle;
+}
+
+
+
+.other_mounth {
+	color: #c5c5c5;
+}
+
+.red_day {
+	color:  #fb6362;
+	
+}
+
+.day_today {
+	background-color: #fb6362; 
+	border-radius: 50%;
+}
+

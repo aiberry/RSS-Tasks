@@ -1,0 +1,127 @@
+
+
+.form_mail {
+	margin: 0 auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	background-color:  #ffffff;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.44);
+	width: 380px;
+	height: 487px;
+	padding-top: 24px;
+}
+
+.mail_block {
+	border-radius: 1px;
+	background-color:  #404a58;
+	height: 37px;
+    padding-left: 12px;
+	padding-right: 12px;
+	display: inline-block;
+	font-family: Gotham;
+	color:  #ffffff;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 33.992px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.mail_input_wrapper {
+	border-radius: 2px;
+    background-color: #f4f4f4;
+    width: 324px;
+    height: 46px;
+    margin: 0 auto;
+    border: 2px inset;
+    padding-left: 5px;
+}
+
+.input_mail {
+	width: 102px;
+    line-height: 3;
+    border: none;
+    font-size: 14px;
+    background-color: #f4f4f4
+}
+
+.fa-times:hover, .fa-times:focus {
+    background-color: black;
+    color: red;
+}
+
+.subscribe_wrapper {
+	padding-left: 12px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background-color: #f4f4f4;
+    width: 317px;
+    height: 46px;
+    line-height: 2.7;
+    border: 2px inset;
+}
+
+.input_subscribe {
+	width: 277px;
+    border: none;
+    background-color: inherit;
+    height: 70%;
+}
+
+.button_paperclip, .button_plus {
+	background-color: inherit;
+	border: none;
+	color:  #999999;
+	height: 20px;
+}
+
+.fa-paperclip {
+	transform: rotate(270deg);
+}
+
+.button_paperclip:hover, .button_paperclip:focus,
+.button_plus:hover, .button_plus:focus {
+	background-color: #b7c193;
+}
+
+.textarea_mail {
+	margin: 0 auto;
+    margin-left: 24px;
+    resize: none;
+    border-radius: 2px;
+    border: none;
+    background-color: #f4f4f4;
+    width: 305px;
+    height: 194px;
+    font-family: Gotham;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    padding: 15px 12px 15px 12px;
+    border: 2px inset;
+}
+
+.button_send_mail {
+    border-radius: 3px;
+    background-color: #fb6362;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.55);
+    width: 127px;
+	height: 49px;
+    border: none;
+    text-transform: uppercase;
+    font-family: Gotham;
+    color: #ffffff;
+    font-size: 14.98px;
+    font-weight: 300;
+    line-height: 42px;
+    text-align: center;
+    margin-left: 228px;
+}
+
+.button_send_mail:hover, .button_send_mail:focus {
+    background-color: red;
+}
+
+.button_send_mail, .textarea_mail, .subscribe_wrapper {
+	margin-top: 24px;
+}

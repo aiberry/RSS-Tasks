@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>|- Hotel</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+	<form class="hotelParis_form">
+		<img src="eifel.png" class="img_eifel">
+		<div class="image_text_wrapper">
+			<h2> Hotel Relais</h2>
+			<h3><i class="fa fa-map-marker" aria-hidden="true"></i> Paris, France</h3>
+		</div>
+		
+		<div class="input_wrapper">
+			<!--date check in-->
+			<label for="checkIn" class="label_1">Check in</label>
+			<div class="button_input_wrapper">
+				<input type="text" name="dateIn" id="checkIn" class="in_input" placeholder="9 July, 2016">
+				<button class="input_button"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i></button>
+			</div>
+			<!--date check out-->
+			<label for="checkOut" class="label_2">Check out</label>
+			<div class="button_input_wrapper">
+				<input type="text" name="dateOut" id="checkOut" class="out_input" placeholder="16 July, 2016">
+				<button class="input_button"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i></button>
+			</div>
+			<!--checkbox flexible dates-->
+			<div>
+				<input type="checkbox" name="flexible" id="flexible">
+				<label for="flexible" class="checkbox_1">Flexible dates</label>
+			</div>
+			<!--number of adults-->
+			<div class="wrapper_adults">
+				<label for="adults" class="adults_label">Adults</label>
+				<div class="input_button_adults">
+					<input type="text" name="adults" id="adults" class="adults_input" placeholder="2">
+					<button class="button_adults"><i class="fa fa-caret-down fa-lg" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<!--number of children-->		
+			<div class="wrapper_children">
+				<label for="children" class="children_label">Children</label>
+				<div class="input_button_children">
+					<input type="text" name="children" id="children" class="children_input" placeholder="1">
+					<button class="button_children"><i class="fa fa-caret-down fa-lg" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<!--button search-->
+			<button class="button_search" type="button"><i class="fa fa-search" aria-hidden="true"></i> Search rooms</button>
+			
+		</div>
+	</form>
+</body>
+</html>

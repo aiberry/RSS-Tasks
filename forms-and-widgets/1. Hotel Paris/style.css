@@ -1,0 +1,175 @@
+.hotelParis_form {
+    margin: 0 auto;
+    margin-top: 25px;
+ 
+    border-radius: 4px;
+    background-color:  #fbfbfb;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.44);
+    width: 346px;
+    height: 626px;
+}
+
+.image_text_wrapper {
+    position: absolute;
+    top: 145px;
+}
+
+.image_text_wrapper h2, .image_text_wrapper h3 {
+    font-family: Gotham;
+    color: #fbfbfb;
+    font-weight: 300;
+    text-align: left;
+}
+
+.image_text_wrapper h2 {
+    font-size: 25px;
+}
+
+.image_text_wrapper h3 {
+    font-size: 14px;
+}
+
+
+.input_wrapper, .image_text_wrapper {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.button_input_wrapper {
+    border-radius: 2px;
+    background-color:  #f4f4f4;
+    width: 296px;
+    height: 46px;
+    border: 2px inset ;
+}
+
+.button_input_wrapper:before, .input_button_adults:before, .input_button_children:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height:100%;
+}
+
+.label_1, .label_2 {
+    margin-top: 15px;
+    font-family: Gotham;
+    color:  #666666;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 31.992px;
+    display: block;
+}
+
+.in_input, .out_input {
+
+    margin-left: 14px;
+    width: 235px;
+    font-family: Gotham;
+    color: #999898;
+    background-color: #f4f4f4;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34.992px;
+    text-align: left;
+}
+
+.input_button {
+    color:  #ffffff;
+    border: none;
+    border-radius: 2px;
+    background-color:  #414b59;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox_1 {
+    font-family: Gotham;
+    color:  #666666;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 51.992px;
+    text-align: left;
+}
+
+.wrapper_children, .wrapper_adults {
+    width: 50%;
+    display: table-cell;
+}
+
+.adults_label, .children_label {
+    display: block;
+    font-family: Gotham;
+    color:  #666666;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.input_button_adults, .input_button_children {
+    border-radius: 2px;
+    background-color:  #f4f4f4;
+    width: 138px;
+    height: 46px;
+    border: 2px inset;
+    margin-top: 20px;
+}
+
+.input_button_children{
+    margin-left: 20px;
+}
+
+.adults_input, .children_input {
+    font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    color: #999898;
+    text-align: left;
+    width: 73px;
+    background-color:   #f4f4f4;
+    border: none;
+    margin-left: 14px;
+
+}
+
+.button_adults, .button_children {
+    border-radius: 2px;
+    background-color:  #414b59;
+    color:  #f4f4f4;
+    width: 37px;
+    height: 37px;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button_search {
+    margin: 0 auto;
+    margin-top: 38px;
+    border-radius: 3px;
+    background-color:  #fb6362;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.55);
+    width: 296px;
+    height: 59px;
+    border: none;
+    text-transform: uppercase;
+    font-family: Gotham;
+    color:  #ffffff;
+    font-size: 14.98px;
+    font-weight: 300;
+    line-height: 42px;
+    text-align: center;
+}
+
+/* hover, focus states */
+
+button:hover, button:focus {
+    background-color: black;
+}
+
+.button_search:hover, .button_search:focus {
+    background-color: red;
+}
+

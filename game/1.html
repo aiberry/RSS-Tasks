@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Steps ...</title>
+		 <script src="js/jsWorker.js" ></script>
+		 <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<button id="newGame" class="newGame">new Game</button>
+		<p id="steps" class="stepsClass"></p>
+		<script>
+			var buttonNew = document.querySelector('#newGame');
+			buttonNew.onclick = makeField;
+		</script>
+		<canvas id="mainField" class="canv"></canvas>
+	</body>
+</html>

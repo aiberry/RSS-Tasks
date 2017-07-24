@@ -1,0 +1,1196 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+.wrapper
+{
+    width: 1530px;
+    height: auto;
+    margin: 0 auto;
+
+    background-color: rgb(249, 249, 252);
+}
+
+header
+{
+    position: fixed;
+    z-index: 3;
+    top: 0;
+
+    width: 100%;
+    height: 55px;
+
+    background-color: #212429;
+}
+
+header nav
+{
+    width: 100%;
+    margin-left: 55px;
+    padding-right: 110px;
+
+    text-align: center;
+}
+
+.burgerLink
+{
+    float: left;
+
+    padding-top: 10px;
+}
+
+.burgerLink i
+{
+    font-size: 32px;
+
+    width: 20px;
+    height: 13px;
+
+    color: white;
+    background-color: inherit;
+}
+
+.birdLink i
+{
+    color: #999;
+}
+
+.birdLink,
+.fLink,
+.tLink,
+.searchLink,
+.signal,
+.burgerLink
+{
+    display: inline-block;
+
+    width: 55px;
+    height: 55px;
+
+    text-align: center;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3c3c3c;
+    border-top: none;
+    border-bottom: none;
+    background-color: #212429;
+}
+
+
+.birdLink,
+.fLink,
+.tLink,
+.searchLink,
+.signal
+{
+    font-size: 26px;
+
+    float: right;
+
+    padding-top: 14px;
+
+    color: white;
+}
+
+.birdLink,
+.fLink,
+.tLink,
+.signal
+{
+    border-right: none;
+}
+
+.topLogoLink
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 22.15px;
+
+    margin-left: 100px;
+
+    text-align: left;
+    text-decoration: none;
+
+    color: #fefefe;
+    border: none;
+    background-color: #212429;
+}
+
+.topLogoLink i
+{
+    font-size: 32px;
+
+    vertical-align: middle;
+}
+
+.mainSection
+{
+    background-color: #f7f7f7;
+}
+
+.manImg
+{
+    margin-top: 55px;
+}
+
+.topLogoLink,
+.sloganOnMan
+{
+    letter-spacing: 6.9px;
+}
+
+.buttonUnderMan p
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    margin-top: 14px;
+
+    letter-spacing: 2.9px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+.mansTextsDiv
+{
+    font-family: 'Hind', sans-serif;
+
+    display: block;
+
+    margin-top: -374px;
+    margin-bottom: 213px;
+    padding-left: 97px;
+
+    letter-spacing: 3.7px;
+
+    color: #fff;
+}
+
+.sloganPromo
+{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+
+    text-align: left;
+}
+
+.sloganOnMan
+{
+    font-size: 40px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 50px; /* Приближение из-за подстановки шрифтов */
+
+    display: block;
+
+    margin-top: -5px;
+
+    text-shadow: 1px 2px 0 rgba(0, 0, 0, .44);
+
+    width: 486px;
+}
+
+.naviOnMan
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 25px;
+
+    display: block;
+
+    margin-top: -400px;
+    margin-bottom: 175px;
+    padding-left: 1427px;
+
+    text-align: right;
+    text-transform: uppercase;
+
+    color: #fff;
+
+    writing-mode: vertical-rl;
+}
+
+
+.naviOnMan b
+{
+    letter-spacing: 3px;
+    word-spacing: 6px;
+}
+
+
+
+.checkButtons
+{
+    font-size: 6px;
+
+    text-align: center;
+}
+
+.checkButtons i
+{
+    margin-top: 4.5px;
+    margin-bottom: 4.5px;
+}
+
+.checkButtons i:nth-child(2)
+{
+    color: #999;
+}
+
+.blackTop
+{
+    width: 100%;
+    height: 295px;
+    margin-bottom: -295px;
+
+    background-color: #212429;
+}
+
+.formUnderManImg
+{
+    display: inline-block;
+
+    width: 1531px;
+    height: 100px;
+    margin-top: 0;
+    padding-bottom: 30px;
+
+    border: none;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.formUnderManImg h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    display: inline-block;
+
+    width: 175px;
+    margin-left: 30px;
+
+    text-align: left;
+
+    color: #212121;
+}
+
+.firstTAunderMan,
+.secondTAunderMan
+{
+    width: 450px;
+    height: 50px;
+    margin-top: 27px;
+
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.firstTAunderMan
+{
+    margin-left: 55px;
+}
+
+.secondTAunderMan
+{
+    margin-left: 23px;
+}
+
+.buttonUnderMan
+{
+    width: 282px;
+    height: 50px;
+    margin-top: 27px;
+    margin-left: 25px;
+
+    vertical-align: top;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    background-color: #212121;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.buttonUnderMan b
+{
+    display: inline-block;
+
+    color: white;
+}
+
+.penAbleArticle
+{
+    width: 360px;
+    height: auto;
+    margin-top: 46px;
+    padding-top: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    text-align: center;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.topIcon
+{
+    margin-top: -17px;
+}
+
+
+.topIconOnImagePost
+{
+    margin-top: -25px;
+}
+
+.penAbleArticle nav,
+.galeryArticle nav,
+.videoArticle nav
+{
+    height: 60px;
+    margin: 30px -30px 0 -30px;
+
+    text-transform: uppercase;
+
+    border: solid;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d7d7d7;
+    border-right: hidden;
+    border-bottom: hidden;
+    border-left: hidden;
+}
+
+
+.penAbleArticle h2,
+.penAbleArticle h3,
+.penAbleArticle time,
+.nonPenAbleArticle h2,
+.nonPenAbleArticle h3,
+.nonPenAbleArticle time,
+.imagePostArticle h2,
+.imagePostArticle h3,
+.imagePostArticle time,
+.musicArticle h2,
+.musicArticle h3,
+.musicArticle time,
+.galeryArticle h2,
+.galeryArticle h3,
+.galeryArticle time,
+.videoArticle h2,
+.videoArticle h3,
+.videoArticle time,
+.abotColumn h2,
+.tweetsColumn h2,
+.followColumn h2,
+.commentColumn h2,
+.formUnderManImg b,
+.topLogoLink,
+.buttonUnderMan b,
+.sloganOnMan,
+.nowComments
+{
+    text-transform: uppercase;
+}
+
+.penAbleArticle time
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    margin-top: -13px;
+    display: block;
+
+    letter-spacing: 2px;
+
+    color: #999;
+}
+
+.penAbleArticle h2,
+.nonPenAbleArticle h2,
+.nonPenAbleArticle time,
+.imagePostArticle h2,
+.imagePostArticle time,
+.musicArticle h2,
+.musicArticle time,
+.galeryArticle h2,
+.galeryArticle time,
+.videoArticle h2,
+.videoArticle time
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    color: #999;
+}
+
+.nonPenAbleArticle h3
+{
+    margin-top: -7px;
+    margin-bottom: 7px;
+}
+
+.nonPenAbleArticle time,.nonPenAbleArticle h2, .videoArticle h2,.galeryArticle h2,
+.galeryArticle h3,.galeryArticle time,.musicArticle h2,
+.musicArticle h3
+{
+    letter-spacing: 1.3px;
+}
+
+.nonPenAbleArticle h2
+{
+    margin-top: -6px;
+}
+
+.imagePostArticle time
+{
+    display: block;
+
+    margin-bottom: 32px;
+
+    letter-spacing: 1.4px;
+}
+
+.imagePostArticle h2
+{
+    margin-top: 32px;
+
+    letter-spacing: 1px;
+}
+
+.penAbleArticle h3
+{
+    margin-top: -7px;
+}
+
+.imagePostArticle h3
+{
+    margin-top: -8px;
+    margin-bottom: 7px;
+}
+
+.penAbleArticle h3,
+.nonPenAbleArticle h3,
+.imagePostArticle h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    letter-spacing: 1.5px;
+
+    color: #212121;
+}
+
+.penAbleArticle h2
+{
+    margin-top: 26px;
+
+    letter-spacing: 1px;
+}
+
+.penAbleArticle p,
+.nonPenAbleArticle p,
+.videoArticle p
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    color: #464646;
+}
+
+.btnReadMore
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    display: block;
+
+    width: 128px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 39px;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    border-top: hidden;
+    border-bottom: hidden;
+    background-color: hsla(50, 33%, 25%, 0);
+
+    font-color: #212121;
+}
+
+.right
+{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    display: block;
+    float: right;
+
+    width: 31px;
+    height: 60px;
+    padding-top: 17px;
+
+    text-align: center;
+
+    color: #464646;
+}
+
+.left
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    display: block;
+    float: left;
+
+    width: auto;
+    height: 60px;
+    padding-top: 20px;
+
+    text-align: left;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #999;
+}
+
+.articleFooter
+{
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.articleFooter a i
+{
+    font-size: 16px;
+
+    color: black;
+}
+
+.nonPenAbleArticle
+{
+    width: 360px;
+    height: auto;
+    margin-top: 29px;
+    padding-top: 24px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    text-align: center;
+
+    background-image: url(file:///D:/RSS/Layout/images/travelBestAdvSecondBackground.png);
+}
+
+.imagePostArticle
+{
+    width: 360px;
+    height: auto;
+    margin-top: 48px;
+    padding: 0 30px 0 30px;
+
+    text-align: center;
+
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.someImageInImPostArticle
+{
+    margin-left: -30px;
+
+    background-color: rgba(221, 221, 221, 15);
+}
+
+.imagePostArticle nav
+{
+    height: 60px;
+    margin: 30px -30px 0 -30px;
+
+    border: solid;
+    border-width: 1px;
+    border-color: #d7d7d7;
+    border-right: hidden;
+    border-bottom: hidden;
+    border-left: hidden;
+}
+
+.quoteArticle
+{	font-family: 'Hind', sans-serif;
+    width: 360px;
+    height: auto;
+    margin-top: 47px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    text-align: center;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    background-color: #212429;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.quoteText
+{
+    
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    margin-top: 25px;
+
+    color: #fff;
+}
+
+.quoteAuthor
+{
+    
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+
+    color: #999;
+}
+
+.videoArticle
+{
+    width: 360px;
+    margin-top: 46px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    text-align: center;
+}
+
+.videoArticle h2
+{
+    margin-top: -13px;
+    margin-bottom: -16px;
+}
+
+.videoArticle h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    margin-bottom: 7px;
+
+    letter-spacing: 1px;
+
+    color: #212121;
+}
+
+.videoArticle time
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    letter-spacing: 1.39px;
+}
+
+.videoPlayer
+{
+    margin-left: -30px;
+}
+
+.topIconOnVideo
+{
+    position: relative;
+    z-index: 2;
+    top: -278px;
+}
+
+.topIconGalery
+{
+    position: relative;
+    z-index: 2;
+    top: -31px;
+}
+
+.galeryArticle h2
+{
+    margin-top: -4px;
+    margin-bottom: 12px;
+}
+
+.galeryArticle h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    margin-top: -8px;
+    margin-bottom: 7px;
+
+    color: #212121;
+}
+
+.galeryArticle time
+{
+    display: inline-block;
+
+    margin-bottom: 32px;
+}
+
+.chainArticle
+{
+    width: 360px;
+    height: 177px auto;
+    margin-top: 42px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    text-align: center;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    background-color: #212429;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+nav.chainArticle a
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    display: inline-block;
+
+    margin-top: 37px;
+    margin-bottom: 56px;
+
+    text-decoration: underline;
+
+    color: #fff;
+}
+
+.emptyArticle
+{
+    width: 360px;
+    height: 513px;
+    margin-top: 46px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.musicArticle
+{
+    width: 360px;
+    height: 454px;
+    margin-top: 46px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.musicArticle h2
+{
+    margin-top: 26px;
+    margin-bottom: -16px;
+}
+
+.musicArticle h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 28px; /* Приближение из-за подстановки шрифтов */
+
+    color: #212121;
+}
+
+.musicArticle time
+{
+    display: block;
+
+    margin-top: -13px;
+    margin-bottom: 21px;
+}
+
+.musicImsge
+{
+    border-radius: 100%;
+}
+
+.galeryArticle
+{
+    width: 360px;
+    height: auto;
+    margin-top: 29px;
+    padding: 3px 30px 0 30px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    background-color: #fff;
+}
+
+.galeryArticleImageRight,
+.galeryArticleImageLeft
+{
+    display: inline;
+}
+
+.galeryArticleImageRight
+{
+    margin-right: -30px;
+}
+
+.galeryArticleImageLeft
+{
+    margin-left: -30px;
+}
+.windowArticle
+{
+    width: 360px;
+    min-height: 289px;
+    margin-top: 42px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(221, 221, 221, 15);
+    background-color: #212429;
+    box-shadow: 0 0 1px 0 rgba(232, 232, 232, .21);
+}
+
+.waterFlouS
+{
+    display: block;
+
+    width: 1560px;
+    height: auto;
+    margin-bottom: 60px;
+    padding-top: 30px;
+}
+
+.column1,
+.column2,
+.column3,
+.column4
+{
+    display: inline-block;
+
+    text-align: center;
+    vertical-align: top;
+}
+
+.column1,
+.column2,
+.column3
+{
+    margin-right: 26px;
+}
+
+.footer
+{
+    width: 100%;
+    min-height: 412px;
+
+    background-color: #212429;
+}
+
+.abotColumn,
+.tweetsColumn,
+.followColumn,
+.commentColumn
+{
+    display: inline-block;
+
+    width: 22%;
+    margin-top: 60px;
+    margin-right: 30px;
+
+    vertical-align: top;
+}
+
+.abotColumn
+{
+    margin-left: 53px;
+}
+
+
+.abotColumn h2,
+.tweetsColumn h2,
+.followColumn h2,
+.commentColumn h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    text-align: left;
+
+    color: #f9f9fb;
+}
+
+.abotColumn p
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 15px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px; /* Приближение из-за подстановки шрифтов */
+
+    margin-top: 40px;
+
+    text-align: left;
+
+    color: #f9f9fb;
+}
+
+.abotColumn div
+{
+    font-size: 36.05px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+
+    width: 100%;
+    height: 147px;
+    margin-top: -5px;
+
+    text-align: right;
+
+    color: #424242;
+    background-color: #3a3c49;
+}
+
+.abotColumn div p
+{
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 36.05px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    display: inline-block;
+
+    margin-top: 90px;
+    margin-right: 10px;
+
+    transform: rotate(-8.785deg);
+    text-align: left;
+}
+
+.tweetsColumn
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    text-align: left;
+
+    color: #f9f9fb;
+}
+
+
+
+.followColumn img
+{
+    display: inline-block;
+
+    margin: 0 2px 2px 0;
+
+    background-color: #f9f9fb;
+}
+
+.verticalBorder
+{
+    width: 100%;
+    height: 1px;
+
+    opacity: .4;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+.commentColumn p
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    text-align: left;
+
+    color: #fff;
+}
+
+.commentColumn h2,
+.abotColumn h2,
+.tweetsColumn h2,
+.followColumn h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 28px;/* Приближение из-за подстановки шрифтов */
+
+    text-align: left;
+
+    color: #f9f9fb;
+}
+
+.alwaysBottom
+{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    margin-bottom: -14px;
+}
+
+.alwaysBottom p
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    display: block;
+
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+
+    text-align: center;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+
+    color: #fff;
+    background-color: #17191c;
+}
+
+.alwaysBottom p a
+{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+
+    display: inline-block;
+
+    margin-left: 15px;
+    padding-top: 3px;
+    padding-left: 30px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #fff;
+    color: #fff;
+    border-width: 4px;
+    border-left: solid;
+}
+
+button:hover, 
+button:focus,
+a:hover
+{
+    color: white;
+    background-color: grey;
+}
+
+.column1 :hover,
+.column2 :hover,
+.column3 :hover,
+.column4 :hover
+{
+    box-shadow: 0 3px 25.52px 3.48px rgba(112, 112, 112, .49);
+}
+
+.topIcon:hover,
+.penAbleArticle h2:hover,
+.penAbleArticle h3:hover,
+.penAbleArticle time:hover,
+.penAbleArticle p:hover,
+.articleFooter:hover,
+.nonPenAbleArticle h2:hover,
+.nonPenAbleArticle h3:hover,
+.nonPenAbleArticle time:hover,
+.nonPenAbleArticle p:hover,
+.imagePostArticle img:hover,
+.imagePostArticle h2:hover,
+.imagePostArticle h3:hover,
+.imagePostArticle time:hover,
+.quoteArticle p:hover,
+.videoArticle img:hover,
+.videoArticle h2:hover,
+.videoArticle h3:hover,
+.videoArticle p:hover,
+.videoArticle time:hover,
+.galeryArticle img:hover,
+.galeryArticle h2:hover,
+.galeryArticle h3:hover,
+.galeryArticle p:hover,
+.galeryArticle time:hover,
+.musicArticle p:hover,
+.musicArticle h2:hover,
+.musicArticle h3:hover,
+.musicArticle time:hover,
+.musicArticle img:hover
+{
+    box-shadow: none;
+}
