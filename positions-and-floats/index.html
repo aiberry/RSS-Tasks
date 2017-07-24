@@ -4,7 +4,222 @@
     <meta charset="utf-8">
     <title>Position&floats</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans" >
-    <link rel="stylesheet" href="css/style.css">
+    
+    <style type="text/css">*{box-sizing: border-box;}
+
+body{
+  background-color: white;
+  height: 2000px;
+  min-width: 1200px;
+  margin: 0px;
+  font-size: 0;
+  }
+
+
+
+.wrapper{ 
+  position: relative;
+  margin: 0px auto;
+  width: 583px;
+  height: 790px;  
+}
+
+.last_page{
+  position: absolute;;
+  left: 40px;
+  top: 40px;
+  z-index: 1;
+    border-width: 2px;
+    border-color:  #000000;
+    border-style: solid;
+  background-color:  #acacac;
+  width: 523px;
+  height: 750px;
+}
+
+.midle_page{
+  position: absolute;;
+  left: 20px;
+  top: 20px;
+  z-index: 3;
+    border-width: 2px;
+    border-color:  #000000;
+    border-style: solid;
+  background-color:  #cccccc;
+  width: 523px;
+  height: 750px;
+}
+
+.face_page{
+  position: absolute;
+  left: 0;
+  padding: 39px 31px 48px 32px;
+  z-index: 5;
+    border-width: 2px;
+    border-color:  #000000;
+    border-style: solid;
+  background-color:  #ebebeb;
+  width: 523px;
+  height: 750px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+  margin-bottom: 14px;
+  margin-top: 0px;
+  color:  #333333;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 16px;
+  height: 22px;
+}
+
+.cup_image{
+  float:left;
+  margin-right: 20px;
+  margin-bottom: 15px; 
+}
+
+.heart_image{
+  float: right;
+  margin-top: 17px;
+}
+
+section h2{
+  color:  #333333;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 21px;
+}
+
+article p{
+  margin-top: 0px;
+  color:  #333333;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+ul{
+  padding-left: 0;
+  margin-bottom: 0px;
+  width: 528px;
+}
+
+li{
+  margin-right: 70px;
+  margin-bottom: 14px;  
+  float:left;
+  list-style-type: none;
+}
+  
+  /*
+  font-size: 0em;
+  width: 528px;
+  float:left;
+  */
+  
+.clearfix:after{
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+ul:after{
+  clear: left;
+}
+
+article:after{
+  clear: both;
+}
+
+footer{
+  color:  #333333;
+  font-size: 9px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.face_mark{
+  position: absolute;;
+  left: 494px;
+  top: 40px;
+  z-index: 6;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color:  #000000;
+  border-style: solid;
+  background-color:  #f68e56;
+  width: 107px;
+  height: 31px;
+}
+
+.midle_mark{
+  position: absolute;
+  top: 43px;
+  left: 472px;
+  z-index: 4;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color:  #000000;
+  border-style: solid;
+  background-color:  #39b54a;
+  width: 95px;
+  height: 31px;
+}
+
+.last_mark{
+  position: absolute;
+  top: 48px;
+  left: 440px;
+  z-index: 2;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-width: 2px;
+  border-color:  #000000;
+  border-style: solid;
+  background-color:  #00aeef;
+  width: 95px;
+  height: 31px;
+}
+
+.share_links{
+  z-index: 6;
+  position: fixed;
+  bottom: 5%;
+  right: 0% ;
+  border-width: 1px;
+  border-color:  #362f2d;
+  border-style: solid;
+  background-color:  #fbaf5d;
+  width: 89px auto;
+  height: 71px;
+}
+
+nav img {
+  margin: 0px 5px 10px 5px;
+  border-radius: 100%;
+}
+
+.sh_links_text{
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color:  #333333;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+</style>
   </head>
 
   <body>
